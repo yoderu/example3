@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>じゃんけんゲーム</title>
+    <meta charset="utf-8" />
+    <!- 表示エリアをデバイスの幅に合わせる -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- stylesheet読み込み-->
+    <link rel="stylesheet" href="static/css/style.css" />
+    <!-- JavaScript読み込み-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <h1>じゃんけんゲーム</h1>
+    <table border="0">
+        <tr><td><img id="hand-rock" src="/static/images/rock.png"></td><td><img id="hand-sissors" src="/static/images/sissors.png"></td><td><img id="hand-paper" src="/static/images/paper.png"></td></tr>
+        <tr><td colspan="3"><p id="result" align="center"><img id="win" src="/static/images/win.png"  height="200" style="display:none"><img id="fail" src="/static/images/zannen.png"  height="200" style="display:none"><img id="aiko" src="/static/images/aiko.png"  height="200" style="display:none"></p></td></tr>
+    </table>
+    
+</body>
+</html>
